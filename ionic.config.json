@@ -1,0 +1,7 @@
+{
+  "name": "pedigree-client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
