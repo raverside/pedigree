@@ -1,0 +1,12 @@
+#menu_button {
+    position: fixed;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+.sync_roosters_button {
+    margin:20px;
+}

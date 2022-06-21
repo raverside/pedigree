@@ -1,0 +1,18 @@
+.mode_selector_popover {
+    text-align: center;
+}
+.mode_selector_popover .popover_title {
+    font-weight:700;
+    font-size:19px;
+    margin:15px;
+}
+.mode_selector_popover .add_records_button {
+    font-weight: 700;
+    font-size: 22px;
+    --border-radius:33px;
+    margin: 1em 2em;
+}
+.mode_selector_popover .add_records_or {
+    font-weight: 700;
+    font-size: 22px;
+}

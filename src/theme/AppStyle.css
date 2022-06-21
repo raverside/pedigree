@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+}
+ion-app .ion-page {
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+ion-title {
+    font-size:18px;
+    font-weight:300;
+}
+ion-title b {
+    font-size:19px;
+    font-weight:700;
+}
+ion-toolbar {
+    --border-color:transparent;
+}
+ion-header::after {
+    height:0;
+    display:none;
+}
+ion-searchbar {
+    --border-radius:30px !important;
+    --placeholder-color:#191919 !important;
+    --placeholder-opacity:.9 !important;
+    --box-shadow: none !important;
+}
+.searchbar-input {
+    font-size:14px !important;
+    border: 1.5px solid #EDEDED !important;
+}

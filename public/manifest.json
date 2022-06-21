@@ -1,6 +1,6 @@
 {
-  "short_name": "Ionic App",
-  "name": "My Ionic App",
+  "short_name": "Pedigree",
+  "name": "Pedigree",
   "icons": [
     {
       "src": "assets/icon/favicon.png",
@@ -10,11 +10,11 @@
     {
       "src": "assets/icon/icon.png",
       "type": "image/png",
-      "sizes": "512x512",
+      "sizes": "30x30",
       "purpose": "maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"

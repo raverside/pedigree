@@ -1,0 +1,10 @@
+.auth_form {
+    text-align: center;
+    margin:10px;
+}
+.auth_form ion-input {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), #C2C9D1;
+    border-radius: 8px;
+    border: 1px solid #C2C9D150;
+    margin-bottom:10px;
+}

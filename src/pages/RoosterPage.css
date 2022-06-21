@@ -1,0 +1,126 @@
+.rooster_value_label {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align:center;
+}
+.rooster_value {
+    color: #1F1F1F;
+    font-size: 16px;
+    font-weight: 700;
+    text-align:center;
+}
+.placa_official {
+    text-align: center;
+    margin:25px 10px;
+    border-bottom:3px solid black;
+    padding-bottom:10px;
+}
+.placa_official p {
+    font-weight: 700;
+    font-size:23px;
+    margin:0;
+    text-transform:uppercase;
+}
+.rooster_status {
+    text-align:right;
+    font-weight:700;
+}
+.rooster_notes {
+    margin:10px;
+    font-size:12px;
+    font-weight:400;
+    margin: 0 10px;
+}
+.rooster_notes_value {
+    margin:20px;
+    font-size:14px;
+    font-weight:400;
+}
+.rooster_parent {
+    color:white;
+    border-radius:24px;
+    text-align:center;
+    padding:10px 25px;
+    font-weight:700;
+    position:relative;
+    margin-top:20px;
+    white-space:nowrap;
+}
+.rooster_parent::after {
+    content: attr(data-title);
+    position:absolute;
+    top:-20px;
+    left:0;
+    right:0;
+}
+.rooster_mother {
+    background-color:#007AFF;
+}
+.rooster_mother::after {
+    color:#007AFF;
+}
+.rooster_father {
+    background-color:#34C759;
+}
+.rooster_father::after {
+    color:#34C759;
+}
+.rooster_parent_arrow {
+    height:60px;
+    width:3px;
+    background-color:black;
+    margin:auto;
+    position:relative;
+}
+.rooster_parent_arrow::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    transform: rotate(45deg);
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    left: 5px;
+}
+.rooster_parent_arrow::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    transform: rotate(-45deg);
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    left: -5px;
+}
+.rooster_slide_value {
+    font-size:26px;
+    font-weight: 700;
+    margin:10px;
+}
+.rooster_selector_slider {
+    border-bottom:3px solid black;
+    padding-bottom:10px;
+    width:90%;
+    margin:auto;
+}
+.rooster_selector_slider ion-chip ion-label {
+    font-weight:700;
+    font-size:15px;
+}
+#swiper-back {
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    z-index:1;
+}
+#swiper-forward {
+    position: absolute;
+    right: 0;
+    bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    z-index:1;
+}
